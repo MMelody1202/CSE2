@@ -1,6 +1,6 @@
 //Ji Qi
 //lab02-Cyclometer
-//01-31/2015
+//01-30-2015
 
 
 public class Cyclometer{
