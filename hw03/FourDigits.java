@@ -13,10 +13,10 @@ public class FourDigits {
 	    double x= myScanner.nextDouble(); //declare variable x
 	    int y1, y2, y3, y4; //declare variable y1, y2, y3, y4
 	    
-	    y1=(int)(x*10)%10; //get the first digit by multiplying the number by 10 and divided
-	    y2=(int)(x*100)%10;
-	    y3=(int)(x*1000)%10;
-	    y4=(int)(x*10000)%10;
+	    y1=(int)(x*10)%10; //get the first integer digit by multiplying the number by 10 and divided by 10
+	    y2=(int)(x*100)%10; //get the second integer digit by multiplying the number by 100 and divided by 10
+	    y3=(int)(x*1000)%10; //get the third integer digit by multiplying the number by 1000 and divided by 10
+	    y4=(int)(x*10000)%10; //get the fourth integer digit by multiplying the number by 10000 and divided by 10
 	    
 	   
 	   
