@@ -84,30 +84,30 @@ public class WhichNumber {
 			 }
 			 else if (l.equals(no)|l.equals(NO)){ //when divided by 3 the result is not greater than 1
 				 System.out.println("Is your number 3?");
-				 String n = sc.nextLine();
+				 String n = sc.nextLine();//decalre variable
 				 if (n.equals(yes)|n.equals(YES)) System.out.println("Yay!"); //guess the right number and print out "Yay!"
 			 }
 			 else System.out.println("Sorry, that is not a valid input.");//otherwise it is not a valid input
 		 }
-		 else if (k.equals(no)|k.equals(NO)){
+		 else if (k.equals(no)|k.equals(NO)){ //the number is not divisible by 3
 			 System.out.println("Is it greater than 6?");
-			 String o = sc.nextLine();
-			 if (o.equals(yes)|o.equals(YES)){
+			 String o = sc.nextLine();//decalre variable
+			 if (o.equals(yes)|o.equals(YES)){ //determine whether the question above is true or not
 				 System.out.println("Is your number 7?");
-				 String p = sc.nextLine();
+				 String p = sc.nextLine();//decalre variable
 				 if (p.equals(yes)|p.equals(YES)) System.out.println("Yay!"); //guess the right number and print out "Yay!"
 			 }
-			 else if (o.equals(no)|o.equals(NO)){
+			 else if (o.equals(no)|o.equals(NO)){ //the number is not greater than 6
 				 System.out.println("Is it less than 3?");
-				 String q = sc.nextLine();
-				 if (q.equals(yes)|q.equals(YES)){
+				 String q = sc.nextLine();//decalre variable
+				 if (q.equals(yes)|q.equals(YES)){ //determine whether the question above is true or not
 					 System.out.println("Is your number 1?");
-					 String r = sc.nextLine();
+					 String r = sc.nextLine();//decalre variable
 					 if (r.equals(yes)|r.equals(YES)) System.out.println("Yay!"); //guess the right number and print out "Yay!"
 				 }
-				 else if (q.equals(no)|q.equals(NO)){
+				 else if (q.equals(no)|q.equals(NO)){ //the number is not less than 3
 					 System.out.println("Is your number 5?");
-					 String s = sc.nextLine();
+					 String s = sc.nextLine();//decalre variable
 					 if (s.equals(yes)|s.equals(YES)) System.out.println("Yay!"); //otherwise it is not a valid input
 				 }
 				 else System.out.println("Sorry, that is not a valid input."); //otherwise it is not a valid input
